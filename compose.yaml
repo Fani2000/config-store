@@ -4,7 +4,7 @@ services:
       context: .
       target: development
     ports:
-      - 3000:80
+      - 4000:80
     environment:
       - PORT=80
       - DB_URL=postgresql://${DB_USER}:${DB_PASSWORD}@db:5432/${DB_NAME}
